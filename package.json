@@ -1,0 +1,14 @@
+{
+  "name": "memorial-company-site",
+  "version": "1.0.0",
+  "description": "Simple website for a monument manufacturing company with backend and database",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}

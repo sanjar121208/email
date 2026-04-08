@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гранит Память — изготовление памятников</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Гранит Память</h1>
+      <p>Изготовление памятников под заказ</p>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>Наши модели</h2>
+        <div id="catalog" class="catalog"></div>
+      </section>
+
+      <section>
+        <h2>Оформить заявку</h2>
+        <form id="orderForm" class="form">
+          <input type="text" id="customerName" placeholder="Ваше имя" required />
+          <input type="tel" id="phone" placeholder="Телефон" required />
+          <select id="monumentId" required>
+            <option value="">Выберите памятник</option>
+          </select>
+          <textarea id="comment" placeholder="Комментарий"></textarea>
+          <button type="submit">Отправить заявку</button>
+        </form>
+        <p id="result"></p>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
